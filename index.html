@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="section">
+
+			<div class="row">
+				<label>First Name</label>
+				<input type="text" id="firstname" class="form-inputs">
+			</div>	
+			<div class="row">
+				<label>Last name</label>
+				<input type="text" id="lastname" name="firstname" class="form-inputs">
+			</div>	
+			<div class="row">
+				<label>Email</label>
+				<input type="text" id="email" name="firstname" class="form-inputs">
+			</div>
+			<div class="row">
+				<label>Password</label>
+				<input type="password" id="pwd" name="firstname" class="form-inputs">
+			</div>
+			<div class="row">
+				<label>Confirm Password</label>
+				<input type="password" id="confirmpwd" name="firstname" class="form-inputs">
+			</div>							
+			
+			<button onclick="displayvalue()">Submit</button>
+
+			<div class="display" style="display:none">
+				<div><span>Name</span> : <span id="name"></span></div>
+				<div><span>Email</span> : <span id="mail"></span></div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
